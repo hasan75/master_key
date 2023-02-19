@@ -1,5 +1,5 @@
 import React, { createContext, useState } from 'react';
-import useData from '../hooks/useData';
+import useProducts from '../hooks/useProducts';
 
 export const ContextApi = createContext();
 
@@ -9,10 +9,10 @@ const ContextProvider = ({ children }) => {
      const {members} = useMembers();
      then members will be in data.
     */
-  const { appData } = useData();
+  const { products } = useProducts();
 
   const data = {
-    appData,
+    products,
   };
 
   return <ContextApi.Provider value={data}>{children}</ContextApi.Provider>;
