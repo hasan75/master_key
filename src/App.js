@@ -4,6 +4,7 @@ import ContextProvider from './contexts/ContextProvider';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Home from './pages/Home/Home';
+import Contact from './pages/Contact/Contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <div className='mainApp'>
             <Routes>
               <Route path='/' element={<Home />} />
+              <Route path='/' element={<Contact />} />
             </Routes>
           </div>
         </BrowserRouter>
