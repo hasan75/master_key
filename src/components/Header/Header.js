@@ -103,7 +103,7 @@ const Header = () => {
       >
         <div className='h-full pl-7 pr-3 py-4 overflow-y-auto bg-white '>
           <Link to='/'>
-            <div className='flex items-center pb-2'>
+            <div className='flex items-center pb-2 mt-4'>
               <img className='logoImg' src={musicLogo} alt='' />
               <span className='pl-4 text-28px'>MK Sounds</span>
             </div>

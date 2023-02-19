@@ -4,3 +4,12 @@
 {
     font-family: 'Podkova', serif;
 }
+
+
+
+@media (min-width: 992px)
+{
+    .mainApp{
+        margin-left: 300px; 
+     }
+}
